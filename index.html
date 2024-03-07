@@ -9,9 +9,10 @@
   <body>
     <!-- Konten Web -->
     <h1>Data Mahasiswa</h1>
-    <p>Nama : Wahyu Wardaya, Nim : 42230016</p>
+    <p>Nama : Wahyu Wardaya,</p>
+    <p>Nim : 42230016</p>
     <h2>Alasan Masuk TI</h2>
-    <p>Alasan Masuk Teknologi Informasi Karena Ingin Mendalami skill pada pemrograman</p>
+    <p>Alasan Masuk Teknologi Informasi Karena Ingin Mendalami skill pada pemrograman web</p>
   </body>
   <body>
     <!-- Langkah c. menggunakan tah Hyperlink dan gambar -->
@@ -57,5 +58,21 @@
     </table>
 
     <!-- Langkah f. membuat Formulir -->
+    <center>
+      <!-- Formulir pesan -->
+      <h2>Formulir Pesan Untuk Wahyu</h2>
+      <form action="submit.php" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="fullname" required /><br /><br />
+
+        <label for="nim">Nim :</label>
+        <input type="text" id="nim" name="nim" required /><br /><br />
+
+        <label for="pesan">Pesan:</label>
+        <textarea type="message" id="pesan" name="pesan_pengguna" rows="4" required></textarea><br /><br />
+
+        <button type="submit">Kirim</button>
+      </form>
+    </center>
   </body>
 </html>
